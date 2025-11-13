@@ -13,6 +13,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Rwaride",
   description: "thi is rwaride app",
+  icons: {
+    icon: "/Contemporary Logo Design for RwaRide.png",
+  },
 };
 
 export default function RootLayout({
