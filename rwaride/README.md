@@ -1,11 +1,11 @@
-# 🚗 RwaRide – Smart Carpooling Platform for Rwandan Commuters
+#  RwaRide – Smart Carpooling Platform for Rwandan Commuters
 
 > **RwaRide** is a community-driven carpooling platform designed to improve urban mobility in **Rwanda**.  
 > It connects **drivers** and **passengers** traveling in the same direction — promoting efficiency, reducing costs, and contributing to Rwanda’s smart city goals.  
 
 ---
 
-## 🌍 Overview
+## Overview
 
 RwaRide addresses Rwanda’s daily transport challenges by matching passengers and drivers in real time.  
 It reduces waiting times, traffic congestion, and travel expenses while encouraging shared mobility and environmental sustainability.
@@ -16,16 +16,16 @@ It reduces waiting times, traffic congestion, and travel expenses while encourag
 
 | Feature | Description |
 |----------|--------------|
-| 🧍 User Registration | Users can sign up as **drivers** or **passengers** |
-| 🚘 Trip Management | Drivers create trips and passengers search destinations |
-| 🔄 Smart Matching | Real-time ride matching between drivers and passengers |
-| 💬 Communication | In-app chat for coordination |
-| ⭐ Ratings | Passenger & driver review system for safety and trust |
-| 🗺️ Ride Tracking | GPS-based tracking and distance visualization |
+| User Registration | Users can sign up as **drivers** or **passengers** |
+|  Trip Management | Drivers create trips and passengers search destinations |
+|  Smart Matching | Real-time ride matching between drivers and passengers |
+|  Communication | In-app chat for coordination |
+|  Ratings | Passenger & driver review system for safety and trust |
+|  Ride Tracking | GPS-based tracking and distance visualization |
 
 ---
 
-## 🎯 Why It Fits Rwanda
+##  Why It Fits Rwanda
 
 - Aligns with **Rwanda’s Vision 2050** and smart city initiatives  
 - Reduces traffic congestion and passenger waiting times  
@@ -34,7 +34,7 @@ It reduces waiting times, traffic congestion, and travel expenses while encourag
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Category | Technology |
 |-----------|-------------|
@@ -49,7 +49,7 @@ It reduces waiting times, traffic congestion, and travel expenses while encourag
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```bash
 rwaride/

@@ -1,26 +1,45 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --primary-color-50: oklch(0.973 0.021 147.968);
+  --primary-color-100: oklch(0.941 0.042 147.968);
+  --primary-color-200: oklch(0.882 0.085 147.968);
+  --primary-color-300: oklch(0.823 0.127 147.968);
+  --primary-color-400: oklch(0.776 0.169 147.968);
+  --primary-color-500: oklch(0.729 0.211 147.968);
+  --primary-color-600: oklch(0.656 0.19 147.968);
+  --primary-color-700: oklch(0.547 0.158 147.968);
+  --primary-color-800: oklch(0.438 0.127 147.968);
+  --primary-color-900: oklch(0.365 0.106 147.968);
+  --primary-color-950: oklch(0.292 0.085 147.968);
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --secondary-50: oklch(0.973 0.021 297.968);
+  --secondary-100: oklch(0.941 0.042 297.968);
+  --secondary-200: oklch(0.882 0.085 297.968);
+  --secondary-300: oklch(0.823 0.127 297.968);
+  --secondary-400: oklch(0.776 0.169 297.968);
+  --secondary-500: oklch(0.729 0.211 297.968);
+  --secondary-600: oklch(0.656 0.19 297.968);
+  --secondary-700: oklch(0.547 0.158 297.968);
+  --secondary-800: oklch(0.438 0.127 297.968);
+  --secondary-900: oklch(0.365 0.106 297.968);
+  --secondary-950: oklch(0.292 0.085 297.968);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --accent-50: oklch(0.973 0.021 47.968);
+  --accent-100: oklch(0.941 0.042 47.968);
+  --accent-200: oklch(0.882 0.085 47.968);
+  --accent-300: oklch(0.823 0.127 47.968);
+  --accent-400: oklch(0.776 0.169 47.968);
+  --accent-500: oklch(0.729 0.211 47.968);
+  --accent-600: oklch(0.656 0.19 47.968);
+  --accent-700: oklch(0.547 0.158 47.968);
+  --accent-800: oklch(0.438 0.127 47.968);
+  --accent-900: oklch(0.365 0.106 47.968);
+  --accent-950: oklch(0.292 0.085 47.968);
+
+  --font-sans: "Poppins", var(--font-fallback);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary-color-50);
 }
