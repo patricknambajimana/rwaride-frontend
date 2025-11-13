@@ -11,7 +11,7 @@ export default function Benefits() {
     <section className="w-full py-16 container mx-auto px-6">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold text-primary-color-800 mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-primary-800 mb-6">
             Supporting Rwanda's Vision 2050
           </h2>
           <div className="space-y-4">
@@ -33,19 +33,15 @@ export default function Benefits() {
           <div className="space-y-4">
             <div className="flex justify-between items-center p-4 bg-white rounded-lg border border-secondary-200">
               <span className="text-secondary-600">Active Passengers</span>
-              <span className="text-primary-color-600 font-bold text-lg">
-                2,500+
-              </span>
+              <span className="text-primary-600 font-bold text-lg">2,500+</span>
             </div>
             <div className="flex justify-between items-center p-4 bg-white rounded-lg border border-secondary-200">
               <span className="text-secondary-600">Registered Drivers</span>
-              <span className="text-primary-color-600 font-bold text-lg">
-                800+
-              </span>
+              <span className="text-primary-600 font-bold text-lg">800+</span>
             </div>
             <div className="flex justify-between items-center p-4 bg-white rounded-lg border border-secondary-200">
               <span className="text-secondary-600">Rides Completed</span>
-              <span className="text-primary-color-600 font-bold text-lg">
+              <span className="text-primary-600 font-bold text-lg">
                 15,000+
               </span>
             </div>

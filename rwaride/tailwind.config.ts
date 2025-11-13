@@ -9,17 +9,17 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          50: "var(--primary-color-50)",
-          100: "var(--primary-color-100)",
-          200: "var(--primary-color-200)",
-          300: "var(--primary-color-300)",
-          400: "var(--primary-color-400)",
-          500: "var(--primary-color-500)",
-          600: "var(--primary-color-600)",
-          700: "var(--primary-color-700)",
-          800: "var(--primary-color-800)",
-          900: "var(--primary-color-900)",
-          950: "var(--primary-color-950)",
+          50: "var(--primary-50)",
+          100: "var(--primary-100)",
+          200: "var(--primary-200)",
+          300: "var(--primary-300)",
+          400: "var(--primary-400)",
+          500: "var(--primary-500)",
+          600: "var(--primary-600)",
+          700: "var(--primary-700)",
+          800: "var(--primary-800)",
+          900: "var(--primary-900)",
+          950: "var(--primary-950)",
         },
         secondary: {
           50: "var(--secondary-50)",
@@ -50,14 +50,6 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
-      },
-      spacing: {
-        xs: "var(--breakpoint-xs)",
-        sm: "var(--breakpoint-sm)",
-        md: "var(--breakpoint-md)",
-        lg: "var(--breakpoint-lg)",
-        xl: "var(--breakpoint-xl)",
-        "2xl": "var(--breakpoint-2xl)",
       },
     },
   },

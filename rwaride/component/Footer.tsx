@@ -2,14 +2,12 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="w-full py-12 border-t border-primary-color-100">
+    <footer className="w-full py-12 border-t border-primary-100">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <div>
           <div className="flex items-center space-x-2 mb-4">
             <Image src="/logo.png" alt="RwaRide Logo" width={32} height={32} />
-            <span className="text-xl font-bold text-primary-color-700">
-              RwaRide
-            </span>
+            <span className="text-xl font-bold text-primary-700">RwaRide</span>
           </div>
           <p className="text-secondary-600 text-sm">
             Building better transportation for Rwanda's future.
@@ -17,7 +15,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="font-semibold text-primary-color-800 mb-4">
+          <h4 className="font-semibold text-primary-800 mb-4">
             For Passengers
           </h4>
           <div className="space-y-2 text-sm">
@@ -43,9 +41,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="font-semibold text-primary-color-800 mb-4">
-            For Drivers
-          </h4>
+          <h4 className="font-semibold text-primary-800 mb-4">For Drivers</h4>
           <div className="space-y-2 text-sm">
             <a
               href="#"
@@ -69,7 +65,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="font-semibold text-primary-color-800 mb-4">Company</h4>
+          <h4 className="font-semibold text-primary-800 mb-4">Company</h4>
           <div className="space-y-2 text-sm">
             <a
               href="#"
@@ -93,7 +89,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="pt-8 border-t border-primary-color-100 text-center">
+      <div className="pt-8 border-t border-primary-100 text-center">
         <p className="text-secondary-500 text-sm">
           © 2025 RwaRide. Building better transportation for Rwanda. |{" "}
           <a href="#" className="mx-2 hover:text-secondary-400">
