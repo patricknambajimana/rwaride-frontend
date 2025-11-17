@@ -81,11 +81,11 @@ export default function Hero() {
                 <p className="text-xs text-(--primary-700)">Cheaper</p>
               </div>
               <div className="p-3 bg-(--secondary-50) rounded-lg">
-                <p className="font-bold text-(--secondary-600)">⚡</p>
+                <p className="font-bold text-(--secondary-600)"></p>
                 <p className="text-xs text-(--secondary-700)">Faster</p>
               </div>
               <div className="p-3 bg-(--accent-50) rounded-lg">
-                <p className="font-bold text-(--accent-600)">🌍</p>
+                <p className="font-bold text-(--accent-600)"></p>
                 <p className="text-xs text-(--accent-700)">Green</p>
               </div>
             </div>

@@ -53,7 +53,7 @@ export default function Navbar() {
 
       <div className="flex space-x-4 items-center">
         <Link
-          href="/login"
+          href="/auth/login"
           className="px-6 py-2 border-2 border-(--white)/60 text-(--white) bg-transparent hover:bg-(--white)/10 hover:border-(--white) font-semibold transition-all duration-200 focus:outline-none focus:ring-3 focus:ring-(--white)/40 rounded-lg backdrop-blur-sm"
           aria-label="Login to RwaRide"
         >
