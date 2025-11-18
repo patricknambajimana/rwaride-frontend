@@ -6,8 +6,16 @@ export default function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <div>
           <div className="flex items-center space-x-2 mb-4">
-            <img src="Contemporary Logo Design for RwaRide.png" alt="RwaRide Logo" width={42} height={42} className="rounded-full" />
-            <span className="text-xl font-bold text-(--primary-700)">RwaRide</span>
+            <img
+              src="Contemporary Logo Design for RwaRide.png"
+              alt="RwaRide Logo"
+              width={42}
+              height={42}
+              className="rounded-full"
+            />
+            <span className="text-xl font-bold text-(--primary-700)">
+              RwaRide
+            </span>
           </div>
           <p className="text-(--secondary-600) text-sm">
             Building better transportation for Rwanda's future.
@@ -41,7 +49,9 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="font-semibold text-(--primary-800) mb-4">For Drivers</h4>
+          <h4 className="font-semibold text-(--primary-800) mb-4">
+            For Drivers
+          </h4>
           <div className="space-y-2 text-sm">
             <a
               href="#"

@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 const RegisterForm = (props: Props) => {
-  return (
-    <div>RegisterForm</div>
-  )
-}
+  return <div>RegisterForm</div>;
+};
 
-export default RegisterForm
+export default RegisterForm;

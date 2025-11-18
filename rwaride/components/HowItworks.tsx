@@ -49,7 +49,9 @@ export default function HowItWorks() {
             <h3 className="text-xl font-semibold text-(--primary-800) mb-3">
               {item.title}
             </h3>
-            <p className="text-(--secondary-600) leading-relaxed">{item.desc}</p>
+            <p className="text-(--secondary-600) leading-relaxed">
+              {item.desc}
+            </p>
           </div>
         ))}
       </div>

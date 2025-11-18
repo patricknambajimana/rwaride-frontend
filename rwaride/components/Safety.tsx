@@ -43,7 +43,9 @@ export default function Safety() {
             className="text-center p-6 bg-white rounded-xl shadow-sm"
           >
             <div className="text-3xl mb-3">{f.icon}</div>
-            <h3 className="font-semibold text-(--primary-700) mb-2">{f.title}</h3>
+            <h3 className="font-semibold text-(--primary-700) mb-2">
+              {f.title}
+            </h3>
             <p className="text-sm text-(--secondary-600)">{f.desc}</p>
           </div>
         ))}
