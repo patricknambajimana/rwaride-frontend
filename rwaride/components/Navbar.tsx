@@ -53,7 +53,7 @@ export default function Navbar() {
 
       <div className="flex space-x-4 items-center">
         <Link
-          href="/auth/login"
+          href="/auth?mode=login"
           className="px-6 py-2 border-2 border-(--white)/60 text-(--white) bg-transparent hover:bg-(--white)/10 hover:border-(--white) font-semibold transition-all duration-200 focus:outline-none focus:ring-3 focus:ring-(--white)/40 rounded-lg backdrop-blur-sm"
           aria-label="Login to RwaRide"
         >
@@ -61,7 +61,7 @@ export default function Navbar() {
         </Link>
 
         <Link
-          href="/signup"
+          href="/auth?mode=signup"
           className="inline-flex items-center gap-2 px-6 py-2 bg-(--white) text-(--primary-600) rounded-lg font-bold transition-all duration-200 shadow-xl hover:shadow-2xl hover:scale-110 focus:outline-none focus:ring-3 focus:ring-(--white)/50 focus:ring-offset-2 focus:ring-offset-(--primary-500)"
           aria-label="Sign up for RwaRide"
         >
