@@ -61,7 +61,7 @@ export default function Navbar() {
         </Link>
 
         <Link
-          href="/signup"
+          href="/auth/signup"
           className="inline-flex items-center gap-2 px-6 py-2 bg-(--white) text-(--primary-600) rounded-lg font-bold transition-all duration-200 shadow-xl hover:shadow-2xl hover:scale-110 focus:outline-none focus:ring-3 focus:ring-(--white)/50 focus:ring-offset-2 focus:ring-offset-(--primary-500)"
           aria-label="Sign up for RwaRide"
         >
