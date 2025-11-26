@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import {
   Card,
   CardContent,
@@ -18,6 +17,15 @@ type User = {
   email: string;
 };
 import { Car } from "lucide-react";
+
+/* Fallback local Label component when '@/components/ui/label' is not available */
+function Label({ htmlFor, children }: { htmlFor?: string; children: any }) {
+  return (
+    <label htmlFor={htmlFor} className="block text-sm font-medium text-gray-700">
+      {children}
+    </label>
+  );
+}
 
 type LoginProps = {
   onLogin: (user: User) => void;
