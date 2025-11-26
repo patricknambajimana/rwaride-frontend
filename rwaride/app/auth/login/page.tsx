@@ -1,7 +1,7 @@
 "use client";
 
-import React from "react";
-import { Login } from "../LoginForm";
+
+import { LoginForm } from "./LoginForm";
 
 export default function LoginPage() {
   const handleLogin = (user: any) => {
@@ -9,5 +9,5 @@ export default function LoginPage() {
     console.log("logged in", user);
   };
 
-  return <Login onLogin={handleLogin} />;
+  return <LoginForm {...({ onLogin: handleLogin } as any)} />;
 }
